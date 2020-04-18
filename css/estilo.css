@@ -1,0 +1,15 @@
+
+#fondo{
+    background-image: url(../img/designer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 700px){
+#home{
+    font-size: 5rem;
+}

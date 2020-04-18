@@ -1,0 +1,92 @@
+/*{outline:1px grey solid;}*/
+body {
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    background-color: purple;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#frase {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    margin-top: -8px;
+    padding-bottom: 20px;
+}
+
+#contenedor {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.instrucciones {
+    font-size: 26px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+#boton {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+    font-weight: bold;
+    width: 300px;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+#pregunta {
+    width: 80%;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 1rem;
+}
+
+#respuesta {
+    font-size: 45px;
+}
+
+
+
+@media (max-width: 600px) {
+    #contenedor {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    img {
+        width: 200px;
+    }
+}

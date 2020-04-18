@@ -1,0 +1,131 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/525c566961.js" crossorigin="anonymous"></script>
+
+
+    <!-- Primary Meta Tags -->
+    <title>LucBag!</title>
+    <meta name="title" content="LucBag!">
+    <meta name="description" content="Las mejores ideas para el desarrollo digital.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="LucBag">
+    <meta property="og:description" content="Las mejores ideas para el desarrollo digital.">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="LucBag!">
+    <meta property="twitter:description" content="Las mejores ideas para el desarrollo digital.">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli&family=Oswald:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  </head>
+
+    <body>
+        <!--BARRA DE NAVEGACIÓN-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <i class="fas fa-hiking mr-1"></i>
+          <a class="navbar-brand" href="../PortfolioLucas/portfolio_lucas.html">LucBag!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../PortfolioLucas/portfolio_lucas.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../PortfolioLucas/proyecto/interfaces/interfaz_input.html">AdivinApp</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dejanos tu opinión</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+        <div class="container-fluid" id="fondo"> 
+          <h1 id="home">DEJANOS TU OPINIÓN</h1>
+        </div>
+
+        <!--FORMULARIO-->
+        <article class="row mt-3">
+          <div class="col-lg-8 col-md-8 col-sm-12">
+
+            <form class="col-lg-12 col-md-8 col-sm-12 mt-3" style="max-width: none;">
+              <div class="row">
+                <div class="col-6">
+                  <label for="text">Nombre</label>
+                  <input type="text" class="form-control" placeholder="Ingresá tu nombre">
+                </div>
+
+                <div class="col-6">
+                  <label for="text">Apellido</label>
+                  <input type="text" class="form-control" placeholder="Ingresá tu apellido">
+                </div>
+
+                <div class="col-6 mt-3">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Ingresá tu email" required>
+                </div>
+
+                <div class="col-6 mt-3">
+                  <label for="edad">Edad</label>
+                  <input type="number" class="form-control" id="edad" min="1" max="80" placeholder="Ingresá tu edad">
+                </div>
+              </div>
+
+              <div class="mt-3">
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">¿Qué fue lo que mas te gustó de la página?</label>
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                  <option selected>Elegí</option>
+                  <option value="1">Home</option>
+                  <option value="2">AdivinApp</option>
+                  <option value="3">Todo!</option>
+                </select>
+              
+                <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                  <input type="checkbox" class="custom-control-input" id="customControlInline">
+                  <label class="custom-control-label" for="customControlInline">Recordar mi preferencia</label>
+                </div>
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="exampleFormControlTextarea1">Escribí tus comentarios</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+                
+                <button type="reset" class="btn btn-primary my-1">Reset</button>
+                <button type="submit" class="btn btn-primary my-1">Enviar</button>              
+            </form>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 mt-4 ml-auto" style="width: 33%;">
+            <img src="../PortfolioLucas/img/apu.jpg" class="img-fluid" alt="Responsive image"> 
+          </div>
+
+      </article>
+
+      <footer>
+        <p class="text-light bg-dark mt-3 text-center p-4">&copy; 2020 LucBag! - Derechos Reservados</p>
+      </footer>     
+
+    </body>
+</html>
